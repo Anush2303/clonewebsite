@@ -1,0 +1,25 @@
+.sheader{
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+}
+.sectionimgb img{
+    width:100%;
+    height:auto;
+}
+.section{
+    margin-top:100px;
+    margin-left:60px;
+}
+
+@media only screen and (max-width : 1024px){
+   .section{
+       margin-left:5px;
+   }
+   .contentsection{
+       margin-left:10px;
+   }
+   .button{
+       width:100%;
+   }
+}

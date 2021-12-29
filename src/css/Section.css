@@ -1,0 +1,28 @@
+.section{
+    margin-top:100px;
+    padding: none;
+}
+.sheader{
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+}
+.sectionimg{
+    width:100%;
+    height:auto;
+}
+@media only screen and (max-width : 1024px){
+    .contentsection{
+         padding-left: 0;
+    }
+    .sectionimg{
+        width:100%;
+        height:auto;
+        padding-left: 0;
+    }
+    .section{
+        margin-left:0px;
+        margin-top:25px;
+        padding: none;
+    }
+}

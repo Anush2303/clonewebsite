@@ -1,0 +1,35 @@
+.contact{
+    background-color:rgb(37, 37, 37);
+    padding: 20px;
+}
+.head{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 20px;
+}
+.subhead{
+    color: white;
+}
+.high{
+    text-decoration: underline;
+}
+.Border{
+    border-bottom: 2px solid white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float:right;
+}
+@media only screen and (max-width : 1024px){
+    .icons{
+        display: none;
+    }
+}
+.cont{
+    float:right;
+    margin-right:0px;
+    display: flex;
+    flex-direction: row;
+}

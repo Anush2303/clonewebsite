@@ -1,0 +1,14 @@
+.quote{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.quote_{
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 36, 36);
+    font-style: oblique;
+}

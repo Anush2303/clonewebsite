@@ -1,0 +1,119 @@
+.he1 img{
+    margin-top:100px;
+    width:100%;
+    height:auto;
+}
+.header{
+    background-color: rgb(255, 249, 242);
+}
+.he2{
+    margin-top:100px;
+}
+.imgbg{
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/4MCRgugtHgl1hD9P7o2U8A/03d54c59ae23068ed910119115557110/Aesop_Gift_Kits_2021_Web_Landing_Page_Secondary_50-50_Desktop_1440x1500px.jpg");
+    background-size: cover;
+    height:500px;
+}
+.sprayimg{
+    float:right;
+    height:60%;
+    width:auto;
+    margin-top:35%;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color:rgb(255, 249, 242); 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .button1:hover {
+    background-color: rgb(54, 52, 52);
+    color: white;
+  }
+
+  @media only screen and (max-width : 1024px){
+      .he2{
+          display: none;
+      }
+      .header{
+          background-image: url("https://www.aesop.com/u1nb1km7t5q7/4MCRgugtHgl1hD9P7o2U8A/03d54c59ae23068ed910119115557110/Aesop_Gift_Kits_2021_Web_Landing_Page_Secondary_50-50_Desktop_1440x1500px.jpg");
+          background-size: cover;
+          background-repeat:no-repeat;
+      }
+      .sprayimg{
+        float:right;
+        height:50%;
+        width:auto;
+        margin-top:55%;
+    }
+    .he1 img{
+        size:larger;
+        width:120%;
+        height:auto;
+    }
+  }
+  @media only screen and (max-width : 768px) {
+    .sprayimg{
+        float:right;
+        height:50%;
+        width:auto;
+        margin-top:70%;
+    }
+    .he1 img{
+        size:larger;
+        width:140%;
+        height:auto;
+    }
+  }
+  @media only screen and (max-width : 640px) {
+    .sprayimg{
+        float:right;
+        height:50%;
+        width:auto;
+        margin-top:100%;
+    }
+    .he1 img{
+        size:larger;
+        width:220%;
+        height:auto;
+    }
+  }
+  @media only screen and (max-width : 411px) {
+    .sprayimg{
+        float:right;
+        height:50%;
+        width:auto;
+        margin-top:160%;
+    }
+    .he1 img{
+        size:larger;
+        width:220%;
+        height:auto;
+    }
+  }
+  @media only screen and (max-width : 411px) {
+    .sprayimg{
+        float:right;
+        height:50%;
+        width:auto;
+        margin-top:170%;
+    }
+    .he1 img{
+        size:larger;
+        width:220%;
+        height:auto;
+    }
+  }
