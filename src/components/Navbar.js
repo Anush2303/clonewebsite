@@ -2,7 +2,7 @@ import React from "react";
 import '../css/Navbar.css';
 import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faSearch,faShoppingCart,faUser} from '@fortawesome/free-solid-svg-icons';
+import {faSearch} from '@fortawesome/free-solid-svg-icons';
 
 function Navbar(){
     return(
